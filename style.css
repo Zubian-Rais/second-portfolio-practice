@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.entry{
+    background-image: url(Images/hero-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.myname{
+    color: #5e17eb;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(#5e17eb, red);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-image: linear-gradient(red,orange);
+}
+
+.half-width img{
+    width: 80%;
+    padding-left: 60px;
+}
+
+.second{
+    background-image: url(Images/2ndbg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+}
+
+.half-widthtwo{
+    width: 50%;
+    margin-right: 100px;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+#experience-one{
+    border-left: 8px solid;
+    border-image: linear-gradient(#5e17eb, red);
+    border-image-slice: 1;
+}
+
+#experience-two{
+    border-left: 8px solid;
+    border-image: linear-gradient(red, #5e17eb);
+    border-image-slice: 1;
+}
+
+.experience-section{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
